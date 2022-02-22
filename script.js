@@ -11,13 +11,10 @@ sayHello: function() {
 
 };
 
-const jonh = {
-    health:100
-};
+const jonh = Object.create(soldier);
 
 
 
-Object.setPrototypeOf(jonh, soldier);
 
 jonh.sayHello();
 
