@@ -14,7 +14,7 @@ const jonh = {
 
 jonh.__proto__ = soldier;
 
-console.log(jonh);
+console.log(jonh.armor);
 
 //[Running] node "w:\КУРС ДЖАВА СКРИПТ\1\20_osnovi_OOP_ptototipno_orientirovannoe_nasledovanie\tempCodeRunnerFile.js"
-//{ health: 100 }
+// 100 
