@@ -15,9 +15,11 @@ const jonh = {
     health:100
 };
 
-jonh.__proto__ = soldier;
+
+
+Object.setPrototypeOf(jonh, soldier);
 
 jonh.sayHello();
 
-[///Running] node "w:\КУРС ДЖАВА СКРИПТ\1\20_osnovi_OOP_ptototipno_orientirovannoe_nasledovanie\tempCodeRunnerFile.js"
+//[Running] node "w:\КУРС ДЖАВА СКРИПТ\1\20_osnovi_OOP_ptototipno_orientirovannoe_nasledovanie\tempCodeRunnerFile.js"
 //Hello
